@@ -1,6 +1,15 @@
 <script setup lang="ts">
 import AppFooter from "@/components/appFooter.vue";
 import appHeader from "@/components/appHeader.vue";
+
+const irParaSobre = () => {
+  const secao = document.getElementById('sobre')
+
+  secao?.scrollIntoView({
+    behavior: 'smooth'
+  })
+}
+
 </script>
 
 <template>
@@ -12,13 +21,13 @@ import appHeader from "@/components/appHeader.vue";
       <div class="left">
         <h1><span>Comunicação</span> Visual</h1>
         <p>Collor Print: Fazendo sua marca aparecer</p>
-        <button class="btn">Sobre nós</button>
+        <button class="btn" @click="irParaSobre">Sobre nós</button>
       </div>
       <div class="right">
         <img src="/images/freepik__talk__77966-removebg-preview.png" />
       </div>
     </div>
-    <div class="aboutUs">
+    <div class="aboutUs" id="sobre">
       <h2>Sobre Nós - <span>Collor Print</span></h2>
       <p>
         A Collor Print é uma empresa de comunicação visual fundada em 2015 com o
@@ -47,7 +56,9 @@ import appHeader from "@/components/appHeader.vue";
 </template>
 
 <style scoped>
- 
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   font-family: "Poppins", sans-serif;

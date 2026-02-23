@@ -13,12 +13,12 @@
     <div class="socials">
   <ul>
     <li>
-      <a href="#">
+      <a href="https://www.facebook.com/collor.print.31/">
         <i class="fa-brands fa-facebook-f icon"></i>
       </a>
     </li>
     <li>
-      <a href="#">
+      <a href="https://www.instagram.com/collorprint15/">
         <i class="fa-brands fa-instagram icon"></i>
       </a>
     </li>

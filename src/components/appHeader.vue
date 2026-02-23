@@ -7,10 +7,10 @@
     <img src="/images/logo collor print31_page-0001.jpg" alt="logo">
 
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Serviços</a></li>
-      <li><a href="">Portfólio</a></li>
-      <li><a href="">Contato</a></li>
+      <li><RouterLink to="/">Home</RouterLink></li>
+      <li><RouterLink to="/serviços">Serviços</RouterLink></li>
+      <li><RouterLink to="/">Portfólio</RouterLink></li>
+      <li><RouterLink to="/">Contato</RouterLink></li>
     </ul>
   </div>
 </template>
